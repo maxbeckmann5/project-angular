@@ -9,7 +9,7 @@ export class NewsCardComponent implements OnInit{
   @Input() text: string='';
   @Input() image: string='';
   @Input() description: string='';
-  @Input() liked: boolean = false;
+  @Input() liked: boolean = false;  
 
   constructor(){}
   toggleLike() {
