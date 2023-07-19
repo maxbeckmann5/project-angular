@@ -8,6 +8,7 @@ import { NewsCardComponent } from './news-card/news-card.component';
 import { ProposalsComponent } from './proposals/proposals.component';
 import { ProposedNewsComponent } from './proposed-news/proposed-news.component';
 import { LastVisitedComponent } from './last-visited/last-visited.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -20,9 +21,12 @@ import { LastVisitedComponent } from './last-visited/last-visited.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
