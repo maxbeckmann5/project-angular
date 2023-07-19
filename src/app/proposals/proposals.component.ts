@@ -7,18 +7,18 @@ import { Component } from '@angular/core';
 })
 export class ProposalsComponent {
 news=[
-  'FC Bayern verpflichtet neuen Spieler!',
-  'Wer gewinnt die 15.Etappe der Tour de France?',
-  'Wimbeldon Gewinner Alcaraz im Interview!',
-  'Wann starten die Wintersportler in die Saison?',
-  'Formel 1: Die aktuelle WM-Wertung.'
+  'Fußball',
+  'Tour de France',
+  'Tennis',
+  'Wintersport',
+  'Formel 1'
 ];
 text=[
-  'Sportvorstand gibt neuen Transfer bekannt.',
-  'Die Favoriten im Check',
-  'Was bedeutet ihm der Sieg?',
-  'Saisonstart früher als letztes Jahr',
-  'Wer führt die Wertung an?'
+  'FC Bayern verpflichtet neuen Spieler! Sportvorstand gibt neuen Transfer bekannt.',
+  'Wer gewinnt die 15.Etappe der Tour de France? Die Favoriten im Check',
+  'Wimbeldon Gewinner Alcaraz im Interview! Was bedeutet ihm der Sieg?',
+  'Wann starten die Wintersportler in die Saison? Saisonstart früher als letztes Jahr',
+  'Formel 1: Die aktuelle WM-Wertung. Wer führt die Wertung an?'
 ];
 images=[
   '/assets/images/Sport/logo-fc-bayern.jpg',

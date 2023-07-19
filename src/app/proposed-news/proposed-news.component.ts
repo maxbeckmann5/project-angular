@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { SubService } from '../sub.service';
 
 @Component({
   selector: 'app-proposed-news',
@@ -10,7 +11,7 @@ export class ProposedNewsComponent {
   @Input() images='';
   @Input() text='';
 
-  constructor(){}
+  constructor(public su: SubService) {}
 
   ngOnInit(): void{}
 }
