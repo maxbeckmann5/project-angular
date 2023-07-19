@@ -6,6 +6,7 @@
         <span class="description">{{text}}</span>
     </div>
     <div (click)="su.addSport(news, images)">
-        <img class="bell-image" src="/assets/images/glocke.png">
+        <img *ngIf="showBell1" class="bell-image" src="/assets/images/glocke.png" (click)="onBellClick()">
+        <img *ngIf="!showBell1" class="bell-image" src="/assets/images/glocke1.png" (click)="onBellClick()">
     </div>
 </div>

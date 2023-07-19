@@ -12,10 +12,11 @@
     </div> 
 
     <div class="card-buttons">
-        <button>
-            Gefällt mir
+        <button (click)="toggleLike()">
+            <span *ngIf="!liked">Gefällt mir</span>
+            <img class="button.liked" *ngIf="liked" src="/assets/images/like.png" alt="Herz">
         </button>
-    
+
         <button>
             Mehr erfahren
         </button>

@@ -11,7 +11,12 @@ export class ProposedNewsComponent {
   @Input() images='';
   @Input() text='';
 
+  @Input() showBell1: boolean = true;
+
   constructor(public su: SubService) {}
 
+  onBellClick(){
+  this.showBell1=!this.showBell1;
+  }
   ngOnInit(): void{}
 }
