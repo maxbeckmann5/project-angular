@@ -1,0 +1,8 @@
+<app-proposed-news [news]="news[0]" [text]="text[0]" [images]="images[0]"></app-proposed-news>
+<div class="margin-bottom-16">
+    <b>Weitere News:</b>
+</div>
+
+
+
+<app-proposed-news *ngFor="let i of [1, 2, 3, 4]" [news]="news[i]" [text]="text[i]" [images]="images[i]"></app-proposed-news>

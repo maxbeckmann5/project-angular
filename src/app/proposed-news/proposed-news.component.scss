@@ -1,0 +1,28 @@
+.proposals{
+    display:flex;
+    align-items: center;
+    img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 16px;
+
+    }
+    .bell-image{
+        width: 30px;
+        height: 30px;
+        margin-left: 16px;
+        cursor: pointer;
+    }
+
+    .description{
+        color: rgba(0,0,0,0.5);
+        font-size: 14px;
+    }
+
+}
+.proposed-news{
+    width: 320px;
+}
